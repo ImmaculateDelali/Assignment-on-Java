@@ -1,11 +1,10 @@
-import java.time.DayOfWeek;
 
 // Creating public and dynamic methods
 
 public class TryingMethods {
     // main method
     public static void main(String[] args) {
-        
+        FirstMethod.anothermethod();
     }
 
     //dynamic method with a while loop to find the sum of numbers below 1000

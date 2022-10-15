@@ -1,19 +1,43 @@
-public void FirstMethod() {
-    int DayoftheWeek = 1;
-        String day = "";
-        switch (DayoftheWeek) {
+// Dynamic Method created using case statement 
+
+public class FirstMethod {
+
+public static void anothermethod() {
+    int Day = 7;
+        String dayString = "";
+        switch (Day) {
             case 1:
-                day ="Sunday";
+            dayString ="Sunday";
                 break;
 
             case 2:
-                day ="Monday";
-
+            dayString ="Monday";
+                break;
             case 3:
-                day = "Tuesday";
-                 
+            dayString = "Tuesday";
+                break;
+
+            case 4:
+            dayString = "Wednesday";
+                    break;  
+            
+             case 5:
+                 dayString = "Thursday";
+                    break;
+                
+            case 6:
+                dayString = "Friday";
+                     break;
+
+             case 7:
+            dayString = "Saturday";
+                         break;
             default:
-            System.out.println(day);
                 break;
         }
+
+        System.out.println(dayString);
+
+
+}
 }

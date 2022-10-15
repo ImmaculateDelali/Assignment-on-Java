@@ -4,7 +4,10 @@
 public class TryingMethods {
     // main method
     public static void main(String[] args) {
-        FirstMethod.anothermethod();
+        //FirstMethod.anothermethod();
+        //SecondMethod.BlocksOfif();
+        //ThirdMethod.Whilesample();
+        FourthMethod.EvenNumbers();
     }
 
     //dynamic method with a while loop to find the sum of numbers below 1000

@@ -2,7 +2,7 @@
 
 public class FirstMethod {
 
-public static void anothermethod() {
+public void anothermethod() {
     int Day = 7;
         String dayString = "";
         switch (Day) {

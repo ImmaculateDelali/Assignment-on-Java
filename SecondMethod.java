@@ -10,4 +10,4 @@ public class  SecondMethod {
         } else {
             System.out.println("You have failed");
         }
-}
+

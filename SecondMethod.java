@@ -1,7 +1,6 @@
 // Another method created to run if statements with at least 3 blocks
 
 public class  SecondMethod {
-    
     public void BlocksOfif() {
         int score =100;
         if (score >=50) {
@@ -11,6 +10,4 @@ public class  SecondMethod {
         } else {
             System.out.println("You have failed");
         }
-        
-    }
-}
+
